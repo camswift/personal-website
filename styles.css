@@ -35,31 +35,38 @@ li{
     list-style-type: none; /* removes bulletpoints*/
     margin:0 22px 0 15px;
 }
-#icon{
+#langs{
+    list-style-type: square;
+}
+.language{
+    margin: 5px 22px 0 15px;
+    font-weight: bold;
+}   
+.icon{
+    padding: 2px 0 0 0;
     width:20px;
     height:20px;
 }
 .link{text-decoration:none; color:var(--text-color);}
 .link:hover{color:var(--hover-color);}
-.footer-link{
-    padding: 5px 0 0 0;
-}
+
 /* -- main section -- */
 .main-div{
     display:flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-align: center;
+    text-align: left;
 }
 .aboutme-div{
     width:50vw;
     background: var(--test-bg);
     color:var(--text-color);
     height:50vh;
+    font-size: 14px;
 }
 .aboutme-div h2{
-        font-size:0px;
+        font-size:30px;
         font-family: 'Monofett', 'Montserrat';
         letter-spacing: 2px;
         text-align:start;
@@ -70,13 +77,15 @@ li{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-align: center;
 }
 .footerContent-div{
+    display:flex;
     width:50vw;
     background: var(--test-bg);
     color:var(--text-color);
     height:10vh;
+    justify-content: center;
+    align-items: center;
 }
 
 .border{
