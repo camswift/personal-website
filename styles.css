@@ -1,1 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Monofett&family=MuseoModerno:wght@300&family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+*{margin:0;}
+html{
+    font-family: 'Montserrat', Permanent Marker;
+    background-color: #cfc0bd;
+    --text-color: #251605;
+    --background: #cfc0bd;
+    --test-bg: #ddd5d0;
+    --hover-color: #A18276;
+}
+/* -- header section -- */
+.header-div{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.name-div{
+    font-family: 'Monofett', 'Montserrat';
+    width:50vw;
+    color:var(--text-color);
+    letter-spacing: 2px;
+    font-size: 25px;
+    background:var(--test-bg);
+}
+.address-div{
+    width:50vw;
+    background: var(--test-bg);
+    color:var(--text-color);
+}
+li{
+    display:inline-block; /*displays on same line*/
+    list-style-type: none; /* removes bulletpoints*/
+    margin:0 22px 0 15px;
+}
+#icon{
+    width:20px;
+    height:20px;
+}
+#location-link{text-decoration:none; color:var(--text-color);}
+#location-link:hover{color:var(--hover-color);}
+/* -- main section -- */
+.main-div{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.aboutme-div{
+    width:50vw;
+    background: var(--test-bg);
+    color:var(--text-color);
+    height:50vh;
+}
+.aboutme-div h2{
+        font-size:0px;
+        font-family: 'Monofett', 'Montserrat';
+        letter-spacing: 2px;
+        text-align:start;
+}
+/* -- footer section -- */
+.footer-div{
+    display:flex;
+}
+.footerContent-div{
+    
+}
+
+.border{
+    border:5px groove var(--hover-color);
+}
 
