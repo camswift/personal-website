@@ -39,8 +39,11 @@ li{
     width:20px;
     height:20px;
 }
-#location-link{text-decoration:none; color:var(--text-color);}
-#location-link:hover{color:var(--hover-color);}
+.link{text-decoration:none; color:var(--text-color);}
+.link:hover{color:var(--hover-color);}
+.footer-link{
+    padding: 5px 0 0 0;
+}
 /* -- main section -- */
 .main-div{
     display:flex;
@@ -64,12 +67,19 @@ li{
 /* -- footer section -- */
 .footer-div{
     display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 .footerContent-div{
-    
+    width:50vw;
+    background: var(--test-bg);
+    color:var(--text-color);
+    height:10vh;
 }
 
 .border{
-    border:5px groove var(--hover-color);
+    border:10px groove var(--hover-color);
 }
 
